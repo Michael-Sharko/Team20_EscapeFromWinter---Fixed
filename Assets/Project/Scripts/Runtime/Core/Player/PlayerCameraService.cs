@@ -9,6 +9,9 @@ namespace Winter.Assets.Project.Scripts.Runtime.Core.Player
         private float _yRotation;
         private Transform _motorObject;
         private PlayerData _data;
+        private PlayerData _data31;
+        private PlayerData _data2;
+        private PlayerData _data1;
 
         public PlayerCameraService(Transform motorCamera, Transform motorObject, PlayerData playerData)
         {
