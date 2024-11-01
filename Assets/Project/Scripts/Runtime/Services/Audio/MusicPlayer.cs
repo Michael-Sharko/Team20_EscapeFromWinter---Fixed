@@ -9,6 +9,9 @@ namespace Winter.Assets.Project.Scripts.Runtime.Services.Audio
         [SerializeField] private AudioSource _musicSource;
         [SerializeField] private AudioMixer _mixer;
         [SerializeField] private AudioClip _backgroundMusicClip;
+        [SerializeField] private AudioClip _backgroundMusicClip123;
+        [SerializeField] private AudioClip _backgroundMusicClip32;
+        [SerializeField] private AudioClip _backgroundMusicClip1;
 
         private void Start()
         {
