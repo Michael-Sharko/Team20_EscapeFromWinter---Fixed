@@ -10,6 +10,8 @@ namespace Winter
     {
         public event Action<Collider> Enter;
         public event Action<Collider> Exit;
+        public event Action<Collider> Exit2;
+        public event Action<Collider> Exit3;
 
         private void OnTriggerEnter(Collider other)
         {
